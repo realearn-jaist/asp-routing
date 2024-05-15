@@ -1,6 +1,6 @@
 # ASP for Bus Route Planning
 
-**Authors:** Teeradaj Racharak (JAIST, Japan), Suyee Mon (KMITL, Thailand) , and Chavakan Yimmark (KMITL, Thailand) 
+**Authors:** Teeradaj Racharak (JAIST, Japan), Suyee Mon (KMITL, Thailand), and Rathachai Chawuthai (KMITL, Thailand) 
 
 **Contacts:** racharak [at] jaist [dot] ac [dot] jp, 65016131 [at] kmitl [dot] ac [dot] th, rathachai [dot] ch [at] kmitl [dot] ac [dot] th
 
