@@ -7,7 +7,20 @@
 **Disclaimer:** This repository contains executable source codes supporting our submission to KR 2024 (KR in the Wild Track). 
 
 ## Folder Documentation
-TBD
+This repository contains data and code for finding shortest-path bus plans using **Answer Set Programming (ASP) methods**. The primary data file is **'bus_plan.csv'**, and notebooks in the **'Experiments_code'** folder perform various analyses on this data using ASP.
+
+###Data
+**bus_plan.csv:** This file contains the bus route data needed to find the shortest path. Each row represents a different aspect of the bus plan, including routes, bus stops, and minimum times.
+
+###Experiments_code 
+The **'Experiments_code'** folder contains notebooks that utilize Answer Set Programming (ASP) methods. Below is a brief description of each:
+
+1. **Finding_Min_Transfer_1_hop.ipynb:** This notebook uses ASP methods to identify routes with the minimum number of transfers within a single hop. It aims to find the most efficient routes that require only one travel exchange.
+2. **Finding_Min_Transfer_2_hops.ipynb:** This notebook is similar to the one-hop analysis; this notebook extends the search to routes that require up to two transfers, using ASP methods to identify efficient routes with minimal travel exchange within two travel exchanges.
+3. **Finding_Min_Transfer_3_hops.ipynb:** This notebook extends the transfer analysis to 3 travel exchanges using ASP methods. It finds routes that require up to three transfers and evaluates their efficiency.
+4. **Finding_Minimum_Time_Difference_Route.ipynb:** This notebook uses ASP to analyze routes and find those with the minimum time difference between consecutive bus stops, aiming to identify the fastest routes by minimizing the total travel time.
+5. **Finding_Minimum_Time_Same_Route.ipynb:** Focuses on finding the routes with the minimum travel time on the same route using ASP methods. It evaluates the time efficiency of the shortest routes without considering transfers.
+6. **Shortest_Path_Finding_for_Bus_Simulation.ipynb:** This notebook finds the shortest path of bus routes for minimum time and minimum transfer on the simulated bus route plan. 
 
 ## Paper 
 
